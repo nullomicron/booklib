@@ -1,0 +1,190 @@
+<!-- 
+Author: Null Omicron aka Eri Setiawan
+Email : nullomicron@yahoo.com
+versi : belajar saja style sembarang !
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Book Library</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		div.header {
+			background-image: url("img/banner.png");
+			background-repeat: no-repeat;
+			width: 100%;
+			height: 169px;
+		}
+		div.main {
+			width: 100%;
+			height: 500px;
+			background-image: url("img/blue-bg.jpg");
+			/*background-repeat: no-repeat;*/
+		}
+		#float {
+		    margin: 15px auto;
+		    padding: 0;
+		    position: absolute;
+		    top: 111px;
+		    left: 22px;
+		}
+		#float li {
+		    float: left;
+		    list-style: none;
+		    margin-left: 15px;
+		    margin-right: 15px;
+		}
+		#float li {
+		    background: transparent;
+		    float: left;
+		    list-style: none;
+		    padding-bottom: 10px;
+		    padding-top: 10px;
+		}
+
+		#float li a {
+		    border-left: 1px solid rgba(0, 0, 0, 0.2);
+		    border-right: 1px solid rgba(255, 255, 255, 0.1);
+		    color: white;
+		    font-variant: small-caps;
+		    text-decoration: none;
+		    padding: 10px 30px;
+		    font-size: 20px;
+		}
+
+		#float li a:hover {
+		  background-image: url("img/blue-bg.jpg");
+		  color: #d0d2d5;
+		}
+		div.sidebar {
+			width: 280px;
+			height: 100%;
+			background-color: transparent;
+		}
+		div.sidebar img {
+			width: 200px;
+			margin-top: 30px;
+		}
+		div.form-login {
+			width: 500px;
+			height: 500px;
+			background-image: url("img/book-login.png");
+			background-repeat: no-repeat;
+			margin-left: -5px;
+			margin-top: 0px;
+		}
+		form.login {
+			position: absolute;
+			left: 60px;
+			top: 270px;
+		}
+		form.login input {
+			width: 150px;
+			height: 20px;
+			padding: 5px 10px;
+			margin-top: 5px;
+			border: 1px solid blue;
+		}
+		form.login button {
+			border: 0px;
+			padding: 5px 10px;
+			background-color: blue;
+			margin-top: 5px;
+			color: white;
+		}
+		form.login ul li {
+			list-style: none;
+		}
+		form.login b {
+			margin-left: 60px;
+			font-size: 20px;
+		}
+		div.footer {
+			width: 100%;
+			height: 30px;
+			background-color: #131b1c;
+			text-align: center;
+			color: white;
+			font-size: 20px;
+		}
+		div.article {
+			position: absolute;
+			top: 195px;
+			left: 380px;
+			width: 930px;
+			height: 440px;
+			padding: 8px;
+			text-align: justify;
+			background-image: url("img/article.png");
+		}
+		
+		div.article p {
+			width: 100%;
+		}
+		div.alert {
+			width: 340px;
+			height: 30px;
+			/*background-color: white;*/
+			position: absolute;
+			top: 500px;
+			left: 20px;
+			color: red;
+			font-size: 20px;
+		}
+		div.alert b {
+			color: black;
+		}
+		i {
+			color: grey;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<ul id="float">
+		    <li><a href="#">Home</a></li>
+		    <li><a href="#">Register</a></li>
+		    <li><a href="#">Contact</a></li>
+		    <li><a href="#">About</a></li>
+		</ul>
+	</div>
+	<div class="main">
+		<div class="sidebar">
+			
+			<div class="form-login">
+				<form class="login">
+					<b>Login</b>
+					<ul>
+						<li><input type="text" name="user" placeholder="username"></li>
+						<li><input type="password" name="pass" placeholder="password"></li>
+						<li><button type="submit">Login</button></li>
+					</ul>
+				</form>
+			</div>
+
+			<div class="alert">
+				<marquee direction="">*Please login to use <b>Libarry App</b></marquee>
+			</div>
+		</div>
+
+		<div class="article">
+			<h1>e-Mikami Library</h1>
+			<i>Date Created: 16 Sept 2019</i>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sunt, repellendus fugit soluta illum nulla error asperiores. Ducimus, vero consequuntur. Sit placeat aperiam illum reprehenderit nulla ipsa repellendus provident facere ad obcaecati hic inventore error expedita iusto, nemo saepe eveniet, ut sint. Voluptates, ipsa, voluptate dolores dolorum modi sed nulla a officiis, debitis quos fuga nisi tenetur accusantium deleniti odio beatae. Accusantium, optio magnam. Nobis ipsa dolorum error totam quos. Tempore adipisci laboriosam voluptas aut repellat eos fugiat, non delectus qui veniam repudiandae magni deserunt, ipsa voluptate at necessitatibus totam dolorem possimus officiis sapiente. Qui fuga, quasi laudantium facere ab laboriosam voluptas ea, possimus cumque assumenda doloremque earum nostrum voluptates fugiat numquam ducimus, repellendus ipsum quod! Ex blanditiis est vero numquam dolor culpa deserunt aut, labore commodi repellendus ut inventore. Unde distinctio ratione excepturi illum cumque dolorem perspiciatis at maxime sed porro asperiores omnis ea explicabo rem totam aliquam obcaecati, incidunt quae velit nobis, accusamus expedita iure! Accusamus amet necessitatibus at ducimus earum accusantium, modi id inventore voluptatum quia rerum dolore perspiciatis dolor non odio in eaque ipsum expedita illum harum nobis repellendus iusto sapiente ratione. Quod consequatur ut maiores harum soluta mollitia molestiae, dignissimos consectetur accusamus accusantium, doloremque, quo.</p>
+
+			<br>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio est et eveniet officiis ipsa, adipisci ratione expedita reiciendis sint quo blanditiis recusandae ad reprehenderit perferendis sapiente accusamus harum nesciunt veritatis voluptates, beatae tempore omnis excepturi eos! Corporis iusto qui id eaque architecto voluptatem, at ipsa facilis ex fuga voluptatum modi iste enim ea consequuntur nobis. Doloribus odio voluptatem accusantium ab sapiente architecto reiciendis a amet nobis porro non deserunt dolor, laboriosam illum, dolores modi vel optio alias nam, voluptas mollitia maxime assumenda repellendus enim voluptate. In enim obcaecati quia quam veniam commodi, aut, maxime tempore repudiandae dolorem alias fugit iste itaque asperiores necessitatibus quisquam consequatur recusandae ea atque! Delectus dolorem vero eius at doloribus tenetur tempora provident ea accusamus a magnam suscipit atque harum id cupiditate voluptatum molestiae tempore corporis iusto quibusdam animi reprehenderit ratione fugiat, veritatis, nemo! Nostrum, totam tenetur earum enim doloribus animi, vitae excepturi labore laboriosam delectus.</p>
+		</div>
+	</div>
+	<div class="footer">
+		<p>&copy; 2019 e-Mikami Open Source</p>
+	</div>
+</body>
+</html>
